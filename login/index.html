@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymSketeros - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Gymsketeros</h1>
+        <button class="login-title">Login</button>
+        <form action="sesion.php" method="POST" autocomplete="off">
+            <input type="hidden" name="csrf_token" value="GENERATED_CSRF_TOKEN">
+
+            <div class="input-container">
+                <label for="username" class="label">Usuario</label>
+                <input type="text" id="username" name="username" class="input-field" required 
+                       autocomplete="username" aria-label="Nombre de usuario">
+            </div>
+            <div class="input-container">
+                <label for="password" class="label">Contraseña</label>
+                <input type="password" id="password" name="password" class="input-field" required 
+                       autocomplete="current-password" aria-label="Contraseña">
+            </div>
+            <button type="submit" class="submit-button">Ingresar</button>
+        </form>
+    </div>
+</body>
+</html>

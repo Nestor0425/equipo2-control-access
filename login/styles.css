@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #000000, #005956);
+}
+
+.login-container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 45px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #73ffbb;
+    margin-bottom: 20px;
+}
+
+.login-title {
+    background: #77ae9b;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los campos de texto */
+    margin-bottom: 20px; /
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #000;
+    background: #78d1b2;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.input-field {
+    width: 80%; /* Reducir el ancho para que quede más proporcionado */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    background: #79d6b6;
+    display: block; /* Asegurar que actúe como un bloque completo */
+}
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    color: #000;
+    background: #71ccac;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background: #69ba9d;
+    
+}
